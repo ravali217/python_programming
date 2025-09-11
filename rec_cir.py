@@ -1,5 +1,5 @@
-from abc import ABC,abstractmethod
-class Shape(ABC):
+from abc import AB,abstractmethod
+class Shape(AB):
     @abstractmethod
     def area(self):
         pass

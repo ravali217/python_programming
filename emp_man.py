@@ -9,7 +9,7 @@ class Manager(Employee):
         super().__init__(name,sal)
         self.department=department
     def display(self):
-        super().display() 
+        # super().display() 
         print( f"{self.name}  {self.sal}  {self.department}")
        
 

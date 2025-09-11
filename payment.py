@@ -2,7 +2,7 @@ class payment:
     def pay(self,amount):
         print(f"paid {amount}")
 class one(payment):
-
+    
     def pay(self,amount):
         print(f"paid {amount} card")
 class two(payment):
